@@ -14,12 +14,14 @@ $ python word-level_text_gen.py　corpus.txt
 （後半で，例としてJUMMAN++を用いたコーパスファイルの作成方法を説明する．）
 
 ソフトウェア環境
-python
-
+python 3.6
+Keras 2.2.4
+numpy 1.15.2
+pydot 1.4.1
+tensorboard 1.11.0
+tensorflow 1.11.0
 その他，word2vec内のファイルの実行にはgensimが必要．
 詳細は，requirements.txtを参照． 
-
-以下にAnaconda環境における実行環境の作成手順を記載する．
 
 
 訓練にはCPUだと時間がかかるのでGPUの利用できる環境が望ましい．
