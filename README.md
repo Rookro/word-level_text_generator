@@ -21,6 +21,7 @@ $ python word-level_text_gen.py　corpus.txt
 * numpy 1.15.2  
 * tensorboard 1.11.0  
 * tensorflow 1.11.0  
+
 その他，word2vec内のファイルの実行にはgensimが必要．  
 詳細は，requirements.txtを参照．   
 
@@ -46,7 +47,7 @@ $ python word-level_text_gen.py　corpus.txt
 JUMAN++は， http://nlp.ist.i.kyoto-u.ac.jp/index.php?JUMAN++ から入手することができる．  
 __開発版であるが V2 の使用を強く勧める．__ それ以前のバージョンでは，解析に多大な時間を要することになる．  
 インストールに関しては，JUMAN++のREADME.mdを参照してほしい．  
-また，以下の情報は2018年11月8日時点でのものである．今後のバージョンアップ等で変わっている可能性があるため，注意してほしい．  
+また，以下の情報は2018年11月8日時点のものである．今後のバージョンアップ等で変わっている可能性があるため，注意してほしい．  
 
 
 
@@ -56,8 +57,7 @@ JUMAN++に与える入力は全角推奨で，一行を一文として解釈す�
 $ jumanpp corpus.txt -o corpus.juman --segment
 ```
 引数 -o  \[FileName\] で出力するファイル名を指定する．  
-引数 --segment で分かち書きされたテキストを出力する．  
-（ --segment-separator=\[SEPARATOR\] でスペース以外の区切りも可能．）
+引数 --segment で分かち書きされたテキストを出力する．（ --segment-separator=\[SEPARATOR\] でスペース以外の区切りも可能．）  
 その他の引数に関しては --help を参照してほしい．
 
 
